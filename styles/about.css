@@ -1,0 +1,15 @@
+img#host{
+    width:20%;
+    float: left;
+    margin-right: 1em;
+}
+
+h2{
+    clear:both;
+}
+
+img#house{
+    width:40%;
+    float:left;
+    margin-right: 1em;
+}
