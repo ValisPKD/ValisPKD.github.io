@@ -21,7 +21,7 @@ body{
     margin-left: auto;
     margin-right: auto;  
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-    line-height: 2em;
+    line-height: 1.5em;
 }
 
 article {
@@ -29,7 +29,7 @@ article {
     margin-left: auto;
     margin-right: auto;
     font-size: 1em;
-    line-height: 2em;
+    line-height: 1.6em;
 }
 
 header> a> img{
@@ -41,6 +41,7 @@ header>nav>ul>li{
     float: left;
     width: 25%;
     background-color: grey;
+    line-height: 2.4em;
 }
 
 nav{
@@ -63,36 +64,25 @@ h1{
     clear: both;
     font-size: 3em;
     text-transform: uppercase;
-    color: yellow;
+    color: rgb(255, 233, 0);
     text-shadow: -2px 2px black;
     margin: 1em auto .4em auto;
     line-height: 1em;
     text-align: center;
-    font-family: Oswald;
+    font-family: Oswald, sans-serif;
 }
 
-
-.cat>img{
-    max-width: 200px;
-    float:left;
-    margin: 0 1em 1em 1em;
-    box-shadow: grey 5px 5px 5px;
-
-}
-
-.cat{
-    float:left;
-    margin: 1em;
-    list-style-type: none;
-}
-
-article>img{
-    border: 1em solid white;
-    box-shadow: 0 0 0 1px black;
-}
 
 h2{
-    margin: 1em 0;
+    margin: .5em 0;
+    background-color: grey;
+    padding: 5px;
+    font-size: 2em;
+    text-transform: uppercase;
+    color: rgb(255, 233, 0);
+    text-shadow: -2px 2px black;
+    line-height: 1em;
+    font-family: Oswald, sans-serif;
 }
 
 footer{
@@ -103,6 +93,7 @@ footer{
 
 a{
     color:whitesmoke;
+    text-decoration: none;
 }
 
 a:hover{
@@ -113,3 +104,6 @@ a:visited{
     color:white;   
 }
 
+p, li{
+    word-wrap: break-word;
+}

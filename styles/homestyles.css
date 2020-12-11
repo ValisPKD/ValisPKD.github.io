@@ -8,17 +8,6 @@ img#int{
     margin-right: auto;
 }
 
-h1{
-    background-color: grey;
-    padding: 5px;
-    clear: both;
-    font-size: 3em;
-    text-transform: uppercase;
-    color: yellow;
-    text-shadow: -2px 2px black;
-    margin: 1em 0em .4em 0em;
-    line-height: 1em;
-}
 
 h2{
     background-color: grey;
@@ -31,4 +20,9 @@ nav>ul{
 
 .amen>li{
     margin-left: 4em;
+}
+
+article>img{
+    border: 1em solid white;
+    box-shadow: 0 0 0 1px black;
 }

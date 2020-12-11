@@ -1,0 +1,41 @@
+figure{
+    float: right;
+    margin: 1em 1.5em;
+    background-color: white;
+    border: 0.3em solid white;
+    box-shadow: 5px 5px 10px black;
+}
+
+figure>img{
+    max-width: 300px;
+}
+
+figcaption{
+    text-align: center;
+}
+
+.banner{
+    box-shadow: 5px 8px 5px black;
+}
+
+ul{
+    list-style: none;
+}
+
+article>ul>li{
+    margin: .3em 0;
+    word-wrap: break-word;
+}
+
+.fav{
+    list-style-image: url('../images/Star_Gold-512.png');
+}
+
+article>img{
+    margin: .5em;
+}
+
+.leftfig{
+    float:left;
+    margin: 1em 2.5em 1em 0em;
+}

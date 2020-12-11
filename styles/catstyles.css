@@ -1,0 +1,19 @@
+.cat>img{
+    width: 200px;
+    float:left;
+    margin: 0 1em 1em 1em;
+    box-shadow: grey 5px 5px 5px;
+
+}
+
+.cat{
+    float:left;
+    margin: 1em;
+    list-style-type: none;
+}
+
+article:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
